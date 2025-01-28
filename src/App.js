@@ -7,7 +7,7 @@ import SecondScreen from './screens/SecondScreen';
 
 function App() {
   return <>
-  <SecondScreen/>
+  {/* <SecondScreen/> */}
   <ThirdScreen/>
   <ForthScreen/>
   <ByMe/>
