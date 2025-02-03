@@ -45,8 +45,8 @@ const SecondScreen=()=>{
       />
 </div>
 <Button text="שיר, אני רוצה לשמוע עוד"/>
-<CourseCard/>
-<AboutMe/>
+{/* <CourseCard/>
+<AboutMe/> */}
     </>
 }
 export default SecondScreen
