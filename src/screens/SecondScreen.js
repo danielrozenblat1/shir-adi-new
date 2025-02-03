@@ -3,9 +3,9 @@ import styles from "./SecondScreen.module.css"
 import  succsess from "../images/wired-lineal-633-female-standing-hover-success.png" 
 import money from "../images/wired-lineal-414-money-bag-dollar-hover-shake.png"
 import control from "../images/wired-lineal-161-growth-hover-pinch.png"
-import calm from "../Icons/wired-lineal-628-yoga-female-hover-pinch.json"
-import infinity from "../Icons/wired-lineal-233-arrow-22-hover-cycle (2).json"
-import famale from "../Icons/wired-lineal-692-hairdresser-barber-hover-pinch.json"
+import calm from "../images/wired-lineal-628-yoga-female-hover-pinch.png"
+import infinity from "../images/wired-lineal-233-arrow-22-hover-cycle.png"
+import famale from "../images/wired-lineal-692-hairdresser-barber-hover-pinch.png"
 import Box from "../components/box/Box"
 import Button from "../components/button/Button"
 import AboutMe from "../components/me/Me"
@@ -26,7 +26,7 @@ const SecondScreen=()=>{
 <div className={styles.title}>אבל</div>
 <div className={styles.description}>זה לא חלום ורוד וזה לא קורה תוך יום</div>
 <div className={styles.title}>זה ידרוש ממך</div>
-{/* <div className={styles.row}>
+<div className={styles.row}>
 <Box 
         title="התמדה"
         description="הדרך להצלחה דורשת התמדה יומיומית בתרגול יומיומי ולא לעצור , 
@@ -43,7 +43,7 @@ const SecondScreen=()=>{
         description="בניית עסק מצליח בתחום לוקחת זמן. סבלנות תעזור לך לא לאבד את עצמך גם בתהליך הלמידה, גם בבניית המוניטין, וגם ביצירת רשת לקוחות נאמנה"
         icon={calm}
       />
-</div> */}
+</div>
 <Button text="שיר, אני רוצה לשמוע עוד"/>
 <CourseCard/>
 <AboutMe/> 
