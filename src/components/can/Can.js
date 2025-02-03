@@ -10,9 +10,9 @@ const Can = ({ text,icon }) => {
         }, 2500); // play again after 2.5 seconds
       };
       const playerRef1 = useRef(null);
-    useEffect(()=>{
-      playerRef1?.current?.playFromBeginning();
-    },[])
+    // useEffect(()=>{
+    //   playerRef1?.current?.playFromBeginning();
+    // },[])
     useEffect(()=>{
  
         // ScrollReveal().reveal(`.${styles.text}`, {
@@ -29,7 +29,7 @@ const Can = ({ text,icon }) => {
     },[])
   return (
     <div className={styles.container}>
- <div className={styles.icon}><Player  icon={icon} ref={playerRef1} size="100%" onComplete={handleComplete}></Player></div>
+ {/* <div className={styles.icon}><Player  icon={icon} ref={playerRef1} size="100%" onComplete={handleComplete}></Player></div> */}
       <p className={styles.text}>{text}</p>
     </div>
   );

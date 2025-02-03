@@ -16,17 +16,17 @@ const SecondScreen=()=>{
     return <>
 <div className={styles.title}>בואי נדבר תכלס</div>
 <div className={styles.description}>אם הגעת לכאן כבר יצא לך לשמוע על החלקות שיער וסיפרו לך שאת יכולה</div>
-{/* <div className={styles.row}>
+<div className={styles.row}>
 <Can text="לקום כל בוקר בתחושה של הגשמה עצמית" icon={succsess}/>
 <Can text="להרוויח סכומים שפעם רק חלמת עליהם והיום הבנת שזה אפשרי" icon={money}/>
     <Can text="להתחיל להחליט ולשלוט על החיים שלך בעצמך ולא ע''י אף אחד אחר " icon={control}/>
-</div> */}
+</div>
 <div className={styles.title}>וזה באמת נכון!</div>
 <div className={styles.description}>את יכולה להגיע לשם</div>
 <div className={styles.title}>אבל</div>
 <div className={styles.description}>זה לא חלום ורוד וזה לא קורה תוך יום</div>
 <div className={styles.title}>זה ידרוש ממך</div>
-<div className={styles.row}>
+{/* <div className={styles.row}>
 <Box 
         title="התמדה"
         description="הדרך להצלחה דורשת התמדה יומיומית בתרגול יומיומי ולא לעצור , 
@@ -43,7 +43,7 @@ const SecondScreen=()=>{
         description="בניית עסק מצליח בתחום לוקחת זמן. סבלנות תעזור לך לא לאבד את עצמך גם בתהליך הלמידה, גם בבניית המוניטין, וגם ביצירת רשת לקוחות נאמנה"
         icon={calm}
       />
-</div>
+</div> */}
 <Button text="שיר, אני רוצה לשמוע עוד"/>
 <CourseCard/>
 <AboutMe/> 
