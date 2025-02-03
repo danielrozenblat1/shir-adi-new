@@ -4,9 +4,13 @@ import ByMe from './components/ByMe/ByMe';
 import ForthScreen from './screens/ForthScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import SecondScreen from './screens/SecondScreen';
+import Stats from './components/special/Special';
+import NavBarNew from './components/NewNav/NavBarNew';
 
 function App() {
   return <>
+  <NavBarNew/>
+  <Stats/>
   <SecondScreen/>
   <ThirdScreen/>
   <ForthScreen/>
