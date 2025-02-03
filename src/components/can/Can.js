@@ -29,7 +29,7 @@ const Can = ({ text,icon }) => {
     },[])
   return (
     <div className={styles.container}>
- {/* <div className={styles.icon}><Player  icon={icon} ref={playerRef1} size="100%" onComplete={handleComplete}></Player></div> */}
+ <div className={styles.icon}><Player  icon={icon} ref={playerRef1} size="100%" onComplete={handleComplete}></Player></div>
       <p className={styles.text}>{text}</p>
     </div>
   );
